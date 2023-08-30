@@ -100,16 +100,16 @@ class LinkedList:
 
     def insertion_at_pos(self,pos,data):
         np=Node(data)
-        temp=self.head
-        for i in range(pos-1):
-            temp=temp.next
-        np.data=data
-        np.next=temp.next
-        temp.next=np
-
-    def insertion_at_middle(self,data):
-        nm=Node(data)
-        pos=len()
+        if pos==0
+           nb.next=self.head
+           self.head=nb
+        else:   
+           temp=self.head
+           for i in range(pos-1):
+              temp=temp.next
+           np.data=data
+           np.next=temp.next
+           temp.next=np
 
     def display(self):
         if self.head is None:
